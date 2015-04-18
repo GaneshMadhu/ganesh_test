@@ -1,0 +1,2351 @@
+version: 0.1.12
+BuildingBuilding.Building...
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+version: 0.1.12
+
+Missing npm packages: 
+Package: glob
+  * Specified: 4.4.0
+  * Installed: 4.5.3
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+
+Missing npm packages: 
+Package: glob
+  * Specified: 4.4.0
+  * Installed: 4.5.3
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+
+Missing npm packages: 
+Package: glob
+  * Specified: 4.4.0
+  * Installed: 4.5.3
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+
+Missing npm packages: 
+Package: glob
+  * Specified: 4.4.0
+  * Installed: 4.5.3
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+BuildingBuilding.Building...
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+version: 0.1.12
+BuildingBuilding.Building...
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+version: 0.1.12
+
+Missing npm packages: 
+Package: rimraf
+  * Specified: 2.2.8
+  * Installed: (not installed)
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+
+Missing npm packages: 
+Package: rimraf
+  * Specified: 2.2.8
+  * Installed: (not installed)
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+
+Missing npm packages: 
+Package: rimraf
+  * Specified: 2.2.8
+  * Installed: (not installed)
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+
+Missing npm packages: 
+Package: rimraf
+  * Specified: 2.2.8
+  * Installed: (not installed)
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+BuildingBuilding.Building...
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+version: 0.1.12
+
+Missing npm packages: 
+Package: glob
+  * Specified: 4.0.5
+  * Installed: 4.4.0
+
+Run `npm install` to install missing dependencies.
+
+version: 0.1.12
+BuildingBuilding.Building...
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+version: 0.1.12
+BuildingBuilding.Building...
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+TypeError: Object function glob(pattern, options, cb) {
+  if (typeof options === "function") cb = options, options = {}
+  if (!options) options = {}
+
+  if (typeof options === "number") {
+    deprecated()
+    return
+  }
+
+  var g = new Glob(pattern, options, cb)
+  return g.sync ? g.found : g
+} has no method 'hasMagic'
+    at rimraf (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+    at lib$rsvp$node$$tryApply (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+    at lib$rsvp$node$$handleValueInput (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+    at fn (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+The package `ember-data` is not a properly formatted package, we have used a fallback lookup to resolve it at `/apps/zzz/t/frontend/node_modules/ember-data`. This is generally caused by an addon not having a `main` entry point (or `index.js`).
+Future versions of Ember CLI will not support v0.10.33. Please update to Node 0.12 or io.js.
+version: 0.2.0
+BuildingThe package `ember-data` is not a properly formatted package, we have used a fallback lookup to resolve it at `/apps/zzz/t/frontend/node_modules/ember-data`. This is generally caused by an addon not having a `main` entry point (or `index.js`).
+Building.Building..Building...
+
+Build successful - 960ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 149ms               
+SixToFive                                     | 99ms                
+ES3SafeFilter                                 | 84ms                
+JSHint app- QUnit                             | 51ms                
+ES6: App Tree                                 | 49ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 149ms               
+SixToFive (2)                                 | 129ms (64 ms)       
+ES3SafeFilter (1)                             | 84ms                
+SourcemapConcat (3)                           | 77ms (25 ms)        
+JSHint app- QUnit (1)                         | 51ms                
+ES6: App Tree (1)                             | 49ms                
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 479ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 165ms               
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 165ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CustomStaticCompiler (30)                     | 29ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 28ms                
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 452ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 186ms               
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 186ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 385ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+SourcemapConcat                               | 24ms                
+TreeMerger (appAndDependencies)               | 22ms                
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+Funnel: App JS Files                          | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CustomStaticCompiler (30)                     | 24ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 22ms                
+Concat: Test Support JS (1)                   | 22ms                
+Funnel: App JS Files (1)                      | 20ms                
+
+The package `ember-data` is not a properly formatted package, we have used a fallback lookup to resolve it at `/apps/zzz/t/frontend/node_modules/ember-data`. This is generally caused by an addon not having a `main` entry point (or `index.js`).
+Future versions of Ember CLI will not support v0.10.33. Please update to Node 0.12 or io.js.
+version: 0.2.0
+
+A new version of ember-cli is available (0.2.3). To install it, type ember update.
+BuildingThe package `ember-data` is not a properly formatted package, we have used a fallback lookup to resolve it at `/apps/zzz/t/frontend/node_modules/ember-data`. This is generally caused by an addon not having a `main` entry point (or `index.js`).
+Building.Building..Building...
+
+Build successful - 905ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 183ms               
+SixToFive                                     | 86ms                
+ES3SafeFilter                                 | 60ms                
+ES6: App Tree                                 | 47ms                
+JSHint app- QUnit                             | 47ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 183ms               
+SixToFive (2)                                 | 110ms (55 ms)       
+SourcemapConcat (3)                           | 72ms (24 ms)        
+ES3SafeFilter (1)                             | 60ms                
+ES6: App Tree (1)                             | 47ms                
+JSHint app- QUnit (1)                         | 47ms                
+
+file added templates/index.hbs___jb_bak___
+
+Build successful - 484ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 123ms               
+SourcemapConcat                               | 33ms                
+SourcemapConcat                               | 33ms                
+Concat: Test Support JS                       | 32ms                
+Funnel: App JS Files                          | 30ms                
+TreeMerger (appAndDependencies)               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 123ms               
+SourcemapConcat (3)                           | 67ms (22 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+Funnel: App JS Files (1)                      | 30ms                
+CustomStaticCompiler (30)                     | 30ms (1 ms)         
+TreeMerger (appAndDependencies) (1)           | 26ms                
+TreeMerger (67)                               | 24ms (0 ms)         
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 1125ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourcemapConcat                               | 285ms               
+Concat: Vendor                                | 177ms               
+Concat: Test Support JS                       | 146ms               
+Concat: Test Support Suffix                   | 75ms                
+TreeMerger (allTrees)                         | 68ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourcemapConcat (3)                           | 308ms (102 ms)      
+Concat: Vendor (1)                            | 177ms               
+Concat: Test Support JS (1)                   | 146ms               
+Concat: Test Support Suffix (1)               | 75ms                
+CustomStaticCompiler (30)                     | 72ms (2 ms)         
+TreeMerger (allTrees) (1)                     | 68ms                
+
+file added templates/index.hbs___jb_bak___
+ENOENT, no such file or directory '/apps/zzz/t/frontend/tmp/build.lock'
+Error: ENOENT, no such file or directory '/apps/zzz/t/frontend/tmp/build.lock'
+    at Object.fs.unlinkSync (fs.js:771:18)
+    at Class.module.exports.postBuild (/apps/zzz/t/frontend/node_modules/ember-cli-rails-addon/index.js:50:10)
+    at /apps/zzz/t/frontend/node_modules/ember-cli/lib/models/builder.js:99:34
+    at Array.map (native)
+    at Class.module.exports.Task.extend.processAddonBuildSteps (/apps/zzz/t/frontend/node_modules/ember-cli/lib/models/builder.js:97:43)
+    at lib$rsvp$$internal$$tryCatch (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:489:16)
+    at lib$rsvp$$internal$$invokeCallback (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:501:17)
+    at lib$rsvp$$internal$$publish (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:472:11)
+    at Object.lib$rsvp$asap$$flush [as _onImmediate] (/apps/zzz/t/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1290:9)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 423ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+SourcemapConcat                               | 33ms                
+SourcemapConcat                               | 31ms                
+Concat: Test Support JS                       | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+SourcemapConcat (3)                           | 65ms (21 ms)        
+Concat: Test Support JS (1)                   | 31ms                
+CustomStaticCompiler (30)                     | 26ms (0 ms)         
+
+file added templates/index.hbs___jb_bak___
+
+Build successful - 414ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 137ms               
+SourcemapConcat                               | 25ms                
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+TreeMerger (appAndDependencies)               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 137ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CustomStaticCompiler (30)                     | 26ms (0 ms)         
+Concat: Test Support JS (1)                   | 22ms                
+TreeMerger (appAndDependencies) (1)           | 21ms                
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 444ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 186ms               
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 186ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 436ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+SourcemapConcat                               | 32ms                
+Concat: Test Support JS                       | 31ms                
+SourcemapConcat                               | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+SourcemapConcat (3)                           | 63ms (21 ms)        
+Concat: Test Support JS (1)                   | 31ms                
+CustomStaticCompiler (30)                     | 27ms (0 ms)         
+TreeMerger (67)                               | 22ms (0 ms)         
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 461ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 142ms               
+TreeMerger (allTrees)                         | 26ms                
+SourcemapConcat                               | 25ms                
+TreeMerger (appAndDependencies)               | 24ms                
+Concat: Test Support JS                       | 23ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 142ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+CustomStaticCompiler (30)                     | 35ms (1 ms)         
+TreeMerger (allTrees) (1)                     | 26ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+Concat: Test Support JS (1)                   | 23ms                
+
+file deleted router.js
+file added router.js___jb_old___
+file added router.js___jb_bak___
+file deleted router.js___jb_old___
+file deleted router.js___jb_bak___
+file added router.js
+
+Build successful - 473ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 189ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 189ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+CustomStaticCompiler (30)                     | 25ms (0 ms)         
+
+
+Build successful - 271ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 26ms                
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+SourcemapConcat                               | 21ms                
+Funnel: App JS Files                          | 19ms                
+TreeMerger (appAndDependencies)               | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourcemapConcat (3)                           | 44ms (14 ms)        
+CustomStaticCompiler (30)                     | 28ms (0 ms)         
+Concat: Vendor (1)                            | 26ms                
+Concat: Test Support JS (1)                   | 22ms                
+Funnel: App JS Files (1)                      | 19ms                
+TreeMerger (appAndDependencies) (1)           | 18ms                
+TreeMerger (67)                               | 16ms (0 ms)         
+
+file added templates/schedules.hbs
+
+Build successful - 401ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+SourcemapConcat                               | 29ms                
+Concat: Test Support JS                       | 25ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+CustomStaticCompiler (30)                     | 24ms (0 ms)         
+
+file deleted templates/schedules.hbs___jb_bak___
+file added templates/schedules.hbs
+file added templates/schedules.hbs___jb_old___
+file deleted templates/schedules.hbs___jb_old___
+
+Build successful - 441ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 152ms               
+SourcemapConcat                               | 24ms                
+TreeMerger (appAndDependencies)               | 24ms                
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 152ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+CustomStaticCompiler (30)                     | 27ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 24ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+
+Build successful - 426ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 172ms               
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 172ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+Concat: Test Support JS (1)                   | 22ms                
+
+file deleted templates/schedules.hbs___jb_old___
+file deleted templates/schedules.hbs___jb_bak___
+file added templates/schedules.hbs
+
+Build successful - 389ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+SourcemapConcat                               | 25ms                
+Concat: Test Support JS                       | 22ms                
+SourcemapConcat                               | 22ms                
+Funnel: App JS Files                          | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CustomStaticCompiler (30)                     | 27ms (0 ms)         
+Concat: Test Support JS (1)                   | 22ms                
+Funnel: App JS Files (1)                      | 20ms                
+
+file added models/schedule.js
+file added unit/models
+file added unit/models/schedule-test.js
+
+Build successful - 474ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 178ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 178ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CustomStaticCompiler (30)                     | 25ms (0 ms)         
+
+file changed main.js
+file changed models/schedule.js
+file changed templates/application.hbs
+file changed app.js
+file changed index.html
+file changed composer.json
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed ember.prod.js
+file changed ember.js
+file changed package.json
+file changed ember-template-compiler.js
+file changed README.md
+file changed ember.min.js
+file changed index.js
+file changed bower.json
+file changed passed.png
+file changed CONTRIBUTING.md
+file changed failed.png
+file changed README.md
+file changed jquery.min.js
+file changed jquery.min.map
+file changed jquery.js
+file changed composer.json
+file changed ember-data.prod.js
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed package.json
+file changed ember-data.js
+file changed README.md
+file changed ember-data.min.js
+file changed index.js
+file changed bower.json
+file changed karma.conf.js
+file changed package.json
+file changed CONTRIBUTING.md
+file changed README.md
+file changed bower.json
+file changed app-shims.js
+file changed LICENSE.md
+file changed README.md
+file changed test-shims.js
+file changed ember-resolver.js
+file changed ember-resolver-tests.js
+file changed bower.json
+file changed loader.js
+file changed README.md
+file changed ember-load-initializers.js
+file changed LICENSE.md
+file changed README.md
+file changed bower.json
+file changed qunit.css
+file changed qunit.js
+file changed environment.js
+file changed lib/handlebars/source.rb
+file changed handlebars.runtime.amd.js
+file changed handlebars.min.js
+file changed handlebars.runtime.min.js
+file changed handlebars.amd.min.js
+file changed handlebars.js.nuspec
+file changed handlebars.amd.js
+file changed README.md
+file changed handlebars.runtime.js
+file changed handlebars-source.gemspec
+file changed composer.json
+file changed handlebars.js
+file changed bower.json
+file changed handlebars.runtime.amd.min.js
+file changed component.json
+file changed crossdomain.xml
+file changed robots.txt
+file changed helpers/resolver.js
+file changed helpers/start-app.js
+file changed test-helper.js
+file changed index.html
+file changed unit/models/schedule-test.js
+
+Build successful - 417ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 28ms                
+SourcemapConcat                               | 24ms                
+Funnel: App JS Files                          | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+Funnel: App JS Files (1)                      | 24ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+
+
+Build successful - 318ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourcemapConcat                               | 38ms                
+SourcemapConcat                               | 36ms                
+Concat: Test Support JS                       | 35ms                
+Concat: Vendor                                | 26ms                
+Funnel: App JS Files                          | 21ms                
+TreeMerger (appAndDependencies)               | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourcemapConcat (3)                           | 75ms (25 ms)        
+Concat: Test Support JS (1)                   | 35ms                
+Concat: Vendor (1)                            | 26ms                
+CustomStaticCompiler (30)                     | 24ms (0 ms)         
+Funnel: App JS Files (1)                      | 21ms                
+TreeMerger (67)                               | 19ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 18ms                
+
+file changed main.js
+file changed models/schedule.js
+file changed templates/application.hbs
+file changed templates/index.hbs
+file changed templates/schedules.hbs
+file changed app.js
+file changed router.js
+file changed index.html
+file changed jquery.min.js
+file changed jquery.min.map
+file changed jquery.js
+file changed qunit.css
+file changed qunit.js
+file changed index.js
+file changed bower.json
+file changed passed.png
+file changed CONTRIBUTING.md
+file changed failed.png
+file changed README.md
+file changed bower.json
+file changed loader.js
+file changed README.md
+file changed composer.json
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed ember.prod.js
+file changed ember.js
+file changed package.json
+file changed ember-template-compiler.js
+file changed README.md
+file changed ember.min.js
+file changed index.js
+file changed bower.json
+file changed karma.conf.js
+file changed package.json
+file changed CONTRIBUTING.md
+file changed README.md
+file changed composer.json
+file changed ember-data.prod.js
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed package.json
+file changed ember-data.js
+file changed README.md
+file changed ember-data.min.js
+file changed environment.js
+file changed handlebars.runtime.js
+file changed handlebars-source.gemspec
+file changed composer.json
+file changed handlebars.js
+file changed bower.json
+file changed handlebars.runtime.amd.min.js
+file changed component.json
+file changed lib/handlebars/source.rb
+file changed handlebars.runtime.amd.js
+file changed handlebars.min.js
+file changed handlebars.runtime.min.js
+file changed handlebars.amd.min.js
+file changed handlebars.js.nuspec
+file changed handlebars.amd.js
+file changed README.md
+file changed ember-resolver.js
+file changed ember-resolver-tests.js
+file changed bower.json
+file changed ember-load-initializers.js
+file changed LICENSE.md
+file changed README.md
+file changed bower.json
+file changed app-shims.js
+file changed LICENSE.md
+file changed README.md
+file changed test-shims.js
+file changed crossdomain.xml
+file changed robots.txt
+file changed unit/models/schedule-test.js
+file changed helpers/resolver.js
+file changed helpers/start-app.js
+file changed test-helper.js
+file changed index.html
+
+Build successful - 589ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 244ms               
+TreeMerger (appAndDependencies)               | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 244ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 40ms                
+
+
+Build successful - 433ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 171ms               
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 171ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+Concat: Test Support JS (1)                   | 22ms                
+
+file added routes/schedules.js
+file changed templates/schedules.hbs
+file changed router.js
+file added unit/routes
+file added unit/routes/schedules-test.js
+
+Build successful - 2688ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CustomStaticCompiler                          | 1287ms              
+TreeMerger (allTrees)                         | 650ms               
+CustomStaticCompiler                          | 193ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CustomStaticCompiler (30)                     | 1551ms (51 ms)      
+TreeMerger (allTrees) (1)                     | 650ms               
+
+
+Build successful - 440ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 174ms               
+Funnel: App JS Files                          | 23ms                
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 174ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 23ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+Concat: Test Support JS (1)                   | 22ms                
+
+file deleted templates/schedules.hbs___jb_old___
+file deleted templates/schedules.hbs___jb_bak___
+file added templates/schedules.hbs
+
+Build successful - 477ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 97ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 97ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+
+file deleted routes/schedules.js___jb_old___
+file deleted routes/schedules.js___jb_bak___
+file added routes/schedules.js
+
+routes/schedules.js: line 23, col 45, Missing semicolon.
+routes/schedules.js: line 70, col 14, Missing semicolon.
+routes/schedules.js: line 86, col 81, Missing semicolon.
+routes/schedules.js: line 87, col 25, Expected '!==' and instead saw '!='.
+routes/schedules.js: line 96, col 28, Missing semicolon.
+routes/schedules.js: line 97, col 75, Missing semicolon.
+routes/schedules.js: line 111, col 14, Missing semicolon.
+routes/schedules.js: line 116, col 101, Missing semicolon.
+routes/schedules.js: line 118, col 99, Missing semicolon.
+routes/schedules.js: line 139, col 28, Missing semicolon.
+routes/schedules.js: line 140, col 81, Missing semicolon.
+routes/schedules.js: line 144, col 103, Missing semicolon.
+routes/schedules.js: line 145, col 53, Missing semicolon.
+routes/schedules.js: line 146, col 83, Missing semicolon.
+routes/schedules.js: line 149, col 99, Missing semicolon.
+routes/schedules.js: line 161, col 60, Missing semicolon.
+routes/schedules.js: line 170, col 75, Missing semicolon.
+routes/schedules.js: line 173, col 81, Missing semicolon.
+routes/schedules.js: line 174, col 60, Missing semicolon.
+routes/schedules.js: line 175, col 99, Missing semicolon.
+routes/schedules.js: line 176, col 95, Missing semicolon.
+routes/schedules.js: line 177, col 98, Missing semicolon.
+routes/schedules.js: line 178, col 39, Missing semicolon.
+routes/schedules.js: line 185, col 78, Missing semicolon.
+routes/schedules.js: line 187, col 32, Missing semicolon.
+routes/schedules.js: line 190, col 31, Missing semicolon.
+routes/schedules.js: line 208, col 107, Missing semicolon.
+routes/schedules.js: line 210, col 105, Missing semicolon.
+routes/schedules.js: line 211, col 57, Missing semicolon.
+routes/schedules.js: line 212, col 87, Missing semicolon.
+routes/schedules.js: line 218, col 89, Missing semicolon.
+routes/schedules.js: line 85, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 99, col 25, 'scheduler' is not defined.
+routes/schedules.js: line 101, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 105, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 116, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 118, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 119, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 144, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 149, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 150, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 171, col 30, 'CAP' is not defined.
+routes/schedules.js: line 179, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 183, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 208, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 210, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 218, col 17, 'show_notification' is not defined.
+routes/schedules.js: line 228, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 35, col 26, 'model' is defined but never used.
+routes/schedules.js: line 65, col 17, 'namespace' is defined but never used.
+routes/schedules.js: line 65, col 17, Too many errors. (28% scanned).
+
+52 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 938ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+ES3SafeFilter                                 | 218ms               
+Concat: Vendor                                | 148ms               
+SixToFive                                     | 141ms               
+JSHint app- QUnit                             | 121ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+ES3SafeFilter (1)                             | 218ms               
+Concat: Vendor (1)                            | 148ms               
+SixToFive (2)                                 | 147ms (73 ms)       
+JSHint app- QUnit (1)                         | 121ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+
+file deleted models/schedule.js___jb_old___
+file deleted models/schedule.js___jb_bak___
+file added models/schedule.js
+
+Build successful - 572ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 156ms               
+JSHint app- QUnit                             | 62ms                
+Concat: Test Support JS                       | 43ms                
+SourcemapConcat                               | 32ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 156ms               
+JSHint app- QUnit (1)                         | 62ms                
+SourcemapConcat (3)                           | 55ms (18 ms)        
+Concat: Test Support JS (1)                   | 43ms                
+Funnel: App JS Files (1)                      | 30ms                
+
+file added templates/schedules
+
+Build successful - 402ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 26ms                
+SourcemapConcat                               | 23ms                
+Concat: Test Support JS                       | 23ms                
+SourcemapConcat                               | 22ms                
+TreeMerger (appAndDependencies)               | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 26ms                
+CustomStaticCompiler (30)                     | 24ms (0 ms)         
+Concat: Test Support JS (1)                   | 23ms                
+TreeMerger (appAndDependencies) (1)           | 20ms                
+
+file added templates/schedules/all_schedules.hbs
+file changed templates/schedules/all_schedules.hbs
+
+Build successful - 518ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 166ms               
+TemplateCompiler                              | 68ms                
+Funnel: App JS Files                          | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 166ms               
+TemplateCompiler (1)                          | 68ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+
+
+Build successful - 278ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 26ms                
+SourcemapConcat                               | 26ms                
+Funnel: App JS Files                          | 24ms                
+Concat: Test Support JS                       | 21ms                
+SourcemapConcat                               | 21ms                
+TreeMerger (appAndDependencies)               | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Vendor (1)                            | 26ms                
+Funnel: App JS Files (1)                      | 24ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+Concat: Test Support JS (1)                   | 21ms                
+TreeMerger (appAndDependencies) (1)           | 18ms                
+TreeMerger (67)                               | 16ms (0 ms)         
+
+file deleted templates/schedules.hbs___jb_old___
+file deleted templates/schedules.hbs___jb_bak___
+file added templates/schedules.hbs
+
+Build successful - 410ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+SourcemapConcat                               | 25ms                
+Funnel: App JS Files                          | 25ms                
+TreeMerger (appAndDependencies)               | 24ms                
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 25ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+Concat: Test Support JS (1)                   | 22ms                
+
+file deleted templates/schedules/all_schedules.hbs___jb_old___
+file deleted templates/schedules/all_schedules.hbs___jb_bak___
+file added templates/schedules/all_schedules.hbs
+
+Build successful - 493ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 175ms               
+ES6: App Tree                                 | 25ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 175ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+ES6: App Tree (1)                             | 25ms                
+Concat: Test Support JS (1)                   | 25ms                
+CustomStaticCompiler (30)                     | 24ms (0 ms)         
+
+file added templates/schedules/all_schedules.hbs___jb_bak___
+file deleted templates/schedules/all_schedules.hbs___jb_old___
+file deleted templates/schedules/all_schedules.hbs___jb_bak___
+file added templates/schedules/all_schedules.hbs
+
+Build successful - 575ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 154ms               
+ES6: App Tree                                 | 106ms               
+Concat: Test Support JS                       | 35ms                
+SourcemapConcat                               | 31ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 154ms               
+ES6: App Tree (1)                             | 106ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 35ms                
+Funnel: App JS Files (1)                      | 29ms                
+
+
+Build successful - 368ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 41ms                
+SourcemapConcat                               | 34ms                
+Funnel: App JS Files                          | 30ms                
+TreeMerger (appAndDependencies)               | 29ms                
+Concat: Test Support JS                       | 23ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourcemapConcat (3)                           | 58ms (19 ms)        
+Concat: Vendor (1)                            | 41ms                
+Funnel: App JS Files (1)                      | 30ms                
+CustomStaticCompiler (30)                     | 29ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 29ms                
+Concat: Test Support JS (1)                   | 23ms                
+TreeMerger (67)                               | 23ms (0 ms)         
+
+file deleted templates/schedules/all_schedules.hbs___jb_old___
+file deleted templates/schedules/all_schedules.hbs___jb_bak___
+file added templates/schedules/all_schedules.hbs
+
+Build successful - 411ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Funnel: App JS Files                          | 25ms                
+Concat: Test Support JS                       | 24ms                
+SourcemapConcat                               | 22ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 25ms                
+Concat: Test Support JS (1)                   | 24ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+
+file added adapters
+file added adapters/application.js
+file added unit/adapters
+file added unit/adapters/application-test.js
+
+Build successful - 508ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 170ms               
+Funnel: App JS Files                          | 39ms                
+TreeMerger (appAndDependencies)               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 170ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 39ms                
+CustomStaticCompiler (30)                     | 26ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 26ms                
+
+file added adapters/application.js~
+file added adapters/application.js
+file deleted adapters/application.js~
+file changed adapters/application.js
+
+Build successful - 418ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Funnel: App JS Files                          | 28ms                
+SourcemapConcat                               | 25ms                
+SourcemapConcat                               | 22ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+Concat: Test Support JS (1)                   | 22ms                
+
+
+Build successful - 509ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 157ms               
+Concat: Test Support JS                       | 46ms                
+Funnel: App JS Files                          | 36ms                
+SourcemapConcat                               | 30ms                
+Concat: App                                   | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 157ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 46ms                
+Funnel: App JS Files (1)                      | 36ms                
+Concat: App (1)                               | 26ms                
+CustomStaticCompiler (30)                     | 25ms (0 ms)         
+
+file deleted adapters/application.js~
+file added adapters/application.js
+
+Build successful - 440ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+Funnel: App JS Files                          | 28ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 23ms                
+SourcemapConcat                               | 22ms                
+Concat: App                                   | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Concat: Test Support JS (1)                   | 26ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+Concat: App (1)                               | 22ms                
+
+file deleted routes/schedules.js___jb_old___
+file deleted routes/schedules.js___jb_bak___
+file added routes/schedules.js
+
+routes/schedules.js: line 23, col 45, Missing semicolon.
+routes/schedules.js: line 33, col 46, Missing semicolon.
+routes/schedules.js: line 71, col 14, Missing semicolon.
+routes/schedules.js: line 87, col 81, Missing semicolon.
+routes/schedules.js: line 88, col 25, Expected '!==' and instead saw '!='.
+routes/schedules.js: line 97, col 28, Missing semicolon.
+routes/schedules.js: line 98, col 75, Missing semicolon.
+routes/schedules.js: line 112, col 14, Missing semicolon.
+routes/schedules.js: line 117, col 101, Missing semicolon.
+routes/schedules.js: line 119, col 99, Missing semicolon.
+routes/schedules.js: line 140, col 28, Missing semicolon.
+routes/schedules.js: line 141, col 81, Missing semicolon.
+routes/schedules.js: line 145, col 103, Missing semicolon.
+routes/schedules.js: line 146, col 53, Missing semicolon.
+routes/schedules.js: line 147, col 83, Missing semicolon.
+routes/schedules.js: line 150, col 99, Missing semicolon.
+routes/schedules.js: line 162, col 60, Missing semicolon.
+routes/schedules.js: line 171, col 75, Missing semicolon.
+routes/schedules.js: line 174, col 81, Missing semicolon.
+routes/schedules.js: line 175, col 60, Missing semicolon.
+routes/schedules.js: line 176, col 99, Missing semicolon.
+routes/schedules.js: line 177, col 95, Missing semicolon.
+routes/schedules.js: line 178, col 98, Missing semicolon.
+routes/schedules.js: line 179, col 39, Missing semicolon.
+routes/schedules.js: line 186, col 78, Missing semicolon.
+routes/schedules.js: line 188, col 32, Missing semicolon.
+routes/schedules.js: line 191, col 31, Missing semicolon.
+routes/schedules.js: line 209, col 107, Missing semicolon.
+routes/schedules.js: line 211, col 105, Missing semicolon.
+routes/schedules.js: line 212, col 57, Missing semicolon.
+routes/schedules.js: line 213, col 87, Missing semicolon.
+routes/schedules.js: line 219, col 89, Missing semicolon.
+routes/schedules.js: line 86, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 100, col 25, 'scheduler' is not defined.
+routes/schedules.js: line 102, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 106, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 117, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 119, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 120, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 145, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 150, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 151, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 172, col 30, 'CAP' is not defined.
+routes/schedules.js: line 180, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 184, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 209, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 211, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 219, col 17, 'show_notification' is not defined.
+routes/schedules.js: line 229, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 36, col 26, 'model' is defined but never used.
+routes/schedules.js: line 36, col 26, Too many errors. (15% scanned).
+
+52 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 799ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 184ms               
+ES3SafeFilter                                 | 129ms               
+SixToFive                                     | 99ms                
+JSHint app- QUnit                             | 88ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 184ms               
+ES3SafeFilter (1)                             | 129ms               
+SixToFive (2)                                 | 105ms (52 ms)       
+JSHint app- QUnit (1)                         | 88ms                
+SourcemapConcat (3)                           | 50ms (16 ms)        
+
+file deleted routes/schedules.js___jb_old___
+file deleted routes/schedules.js___jb_bak___
+file added routes/schedules.js
+
+routes/schedules.js: line 23, col 45, Missing semicolon.
+routes/schedules.js: line 70, col 14, Missing semicolon.
+routes/schedules.js: line 86, col 81, Missing semicolon.
+routes/schedules.js: line 87, col 25, Expected '!==' and instead saw '!='.
+routes/schedules.js: line 96, col 28, Missing semicolon.
+routes/schedules.js: line 97, col 75, Missing semicolon.
+routes/schedules.js: line 111, col 14, Missing semicolon.
+routes/schedules.js: line 116, col 101, Missing semicolon.
+routes/schedules.js: line 118, col 99, Missing semicolon.
+routes/schedules.js: line 139, col 28, Missing semicolon.
+routes/schedules.js: line 140, col 81, Missing semicolon.
+routes/schedules.js: line 144, col 103, Missing semicolon.
+routes/schedules.js: line 145, col 53, Missing semicolon.
+routes/schedules.js: line 146, col 83, Missing semicolon.
+routes/schedules.js: line 149, col 99, Missing semicolon.
+routes/schedules.js: line 161, col 60, Missing semicolon.
+routes/schedules.js: line 170, col 75, Missing semicolon.
+routes/schedules.js: line 173, col 81, Missing semicolon.
+routes/schedules.js: line 174, col 60, Missing semicolon.
+routes/schedules.js: line 175, col 99, Missing semicolon.
+routes/schedules.js: line 176, col 95, Missing semicolon.
+routes/schedules.js: line 177, col 98, Missing semicolon.
+routes/schedules.js: line 178, col 39, Missing semicolon.
+routes/schedules.js: line 185, col 78, Missing semicolon.
+routes/schedules.js: line 187, col 32, Missing semicolon.
+routes/schedules.js: line 190, col 31, Missing semicolon.
+routes/schedules.js: line 208, col 107, Missing semicolon.
+routes/schedules.js: line 210, col 105, Missing semicolon.
+routes/schedules.js: line 211, col 57, Missing semicolon.
+routes/schedules.js: line 212, col 87, Missing semicolon.
+routes/schedules.js: line 218, col 89, Missing semicolon.
+routes/schedules.js: line 85, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 99, col 25, 'scheduler' is not defined.
+routes/schedules.js: line 101, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 105, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 116, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 118, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 119, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 144, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 149, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 150, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 171, col 30, 'CAP' is not defined.
+routes/schedules.js: line 179, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 183, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 208, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 210, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 218, col 17, 'show_notification' is not defined.
+routes/schedules.js: line 228, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 35, col 26, 'model' is defined but never used.
+routes/schedules.js: line 65, col 17, 'namespace' is defined but never used.
+routes/schedules.js: line 65, col 17, Too many errors. (28% scanned).
+
+52 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 710ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+ES3SafeFilter                                 | 121ms               
+Concat: Vendor                                | 113ms               
+SixToFive                                     | 97ms                
+JSHint app- QUnit                             | 89ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+ES3SafeFilter (1)                             | 121ms               
+Concat: Vendor (1)                            | 113ms               
+SixToFive (2)                                 | 103ms (51 ms)       
+JSHint app- QUnit (1)                         | 89ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+
+The package `ember-data` is not a properly formatted package, we have used a fallback lookup to resolve it at `/apps/zzz/t/frontend/node_modules/ember-data`. This is generally caused by an addon not having a `main` entry point (or `index.js`).
+Future versions of Ember CLI will not support v0.10.33. Please update to Node 0.12 or io.js.
+version: 0.2.0
+
+A new version of ember-cli is available (0.2.3). To install it, type ember update.
+BuildingThe package `ember-data` is not a properly formatted package, we have used a fallback lookup to resolve it at `/apps/zzz/t/frontend/node_modules/ember-data`. This is generally caused by an addon not having a `main` entry point (or `index.js`).
+Building.Building..
+routes/schedules.js: line 23, col 45, Missing semicolon.
+routes/schedules.js: line 70, col 14, Missing semicolon.
+routes/schedules.js: line 86, col 81, Missing semicolon.
+routes/schedules.js: line 87, col 25, Expected '!==' and instead saw '!='.
+routes/schedules.js: line 96, col 28, Missing semicolon.
+routes/schedules.js: line 97, col 75, Missing semicolon.
+routes/schedules.js: line 111, col 14, Missing semicolon.
+routes/schedules.js: line 116, col 101, Missing semicolon.
+routes/schedules.js: line 118, col 99, Missing semicolon.
+routes/schedules.js: line 139, col 28, Missing semicolon.
+routes/schedules.js: line 140, col 81, Missing semicolon.
+routes/schedules.js: line 144, col 103, Missing semicolon.
+routes/schedules.js: line 145, col 53, Missing semicolon.
+routes/schedules.js: line 146, col 83, Missing semicolon.
+routes/schedules.js: line 149, col 99, Missing semicolon.
+routes/schedules.js: line 161, col 60, Missing semicolon.
+routes/schedules.js: line 170, col 75, Missing semicolon.
+routes/schedules.js: line 173, col 81, Missing semicolon.
+routes/schedules.js: line 174, col 60, Missing semicolon.
+routes/schedules.js: line 175, col 99, Missing semicolon.
+routes/schedules.js: line 176, col 95, Missing semicolon.
+routes/schedules.js: line 177, col 98, Missing semicolon.
+routes/schedules.js: line 178, col 39, Missing semicolon.
+routes/schedules.js: line 185, col 78, Missing semicolon.
+routes/schedules.js: line 187, col 32, Missing semicolon.
+routes/schedules.js: line 190, col 31, Missing semicolon.
+routes/schedules.js: line 208, col 107, Missing semicolon.
+routes/schedules.js: line 210, col 105, Missing semicolon.
+routes/schedules.js: line 211, col 57, Missing semicolon.
+routes/schedules.js: line 212, col 87, Missing semicolon.
+routes/schedules.js: line 218, col 89, Missing semicolon.
+routes/schedules.js: line 85, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 99, col 25, 'scheduler' is not defined.
+routes/schedules.js: line 101, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 105, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 116, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 118, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 119, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 144, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 149, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 150, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 171, col 30, 'CAP' is not defined.
+routes/schedules.js: line 179, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 183, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 208, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 210, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 218, col 17, 'show_notification' is not defined.
+routes/schedules.js: line 228, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 35, col 26, 'model' is defined but never used.
+routes/schedules.js: line 65, col 17, 'namespace' is defined but never used.
+routes/schedules.js: line 65, col 17, Too many errors. (28% scanned).
+
+52 errors
+
+===== 1 JSHint Error
+
+Building...Building...
+
+Build successful - 1662ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SixToFive                                     | 305ms               
+ES3SafeFilter                                 | 225ms               
+JSHint app- QUnit                             | 182ms               
+Concat: Vendor                                | 124ms               
+SourcemapConcat                               | 118ms               
+ES6: App Tree                                 | 117ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SixToFive (2)                                 | 353ms (176 ms)      
+ES3SafeFilter (1)                             | 225ms               
+JSHint app- QUnit (1)                         | 182ms               
+SourcemapConcat (3)                           | 168ms (56 ms)       
+Concat: Vendor (1)                            | 124ms               
+ES6: App Tree (1)                             | 117ms               
+
+file deleted routes/schedules.js___jb_old___
+file deleted routes/schedules.js___jb_bak___
+file added routes/schedules.js
+
+routes/schedules.js: line 23, col 45, Missing semicolon.
+routes/schedules.js: line 34, col 26, Missing semicolon.
+routes/schedules.js: line 72, col 14, Missing semicolon.
+routes/schedules.js: line 88, col 81, Missing semicolon.
+routes/schedules.js: line 89, col 25, Expected '!==' and instead saw '!='.
+routes/schedules.js: line 98, col 28, Missing semicolon.
+routes/schedules.js: line 99, col 75, Missing semicolon.
+routes/schedules.js: line 113, col 14, Missing semicolon.
+routes/schedules.js: line 118, col 101, Missing semicolon.
+routes/schedules.js: line 120, col 99, Missing semicolon.
+routes/schedules.js: line 141, col 28, Missing semicolon.
+routes/schedules.js: line 142, col 81, Missing semicolon.
+routes/schedules.js: line 146, col 103, Missing semicolon.
+routes/schedules.js: line 147, col 53, Missing semicolon.
+routes/schedules.js: line 148, col 83, Missing semicolon.
+routes/schedules.js: line 151, col 99, Missing semicolon.
+routes/schedules.js: line 163, col 60, Missing semicolon.
+routes/schedules.js: line 172, col 75, Missing semicolon.
+routes/schedules.js: line 175, col 81, Missing semicolon.
+routes/schedules.js: line 176, col 60, Missing semicolon.
+routes/schedules.js: line 177, col 99, Missing semicolon.
+routes/schedules.js: line 178, col 95, Missing semicolon.
+routes/schedules.js: line 179, col 98, Missing semicolon.
+routes/schedules.js: line 180, col 39, Missing semicolon.
+routes/schedules.js: line 187, col 78, Missing semicolon.
+routes/schedules.js: line 189, col 32, Missing semicolon.
+routes/schedules.js: line 192, col 31, Missing semicolon.
+routes/schedules.js: line 210, col 107, Missing semicolon.
+routes/schedules.js: line 212, col 105, Missing semicolon.
+routes/schedules.js: line 213, col 57, Missing semicolon.
+routes/schedules.js: line 214, col 87, Missing semicolon.
+routes/schedules.js: line 220, col 89, Missing semicolon.
+routes/schedules.js: line 87, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 101, col 25, 'scheduler' is not defined.
+routes/schedules.js: line 103, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 107, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 118, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 120, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 121, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 146, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 151, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 152, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 173, col 30, 'CAP' is not defined.
+routes/schedules.js: line 181, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 185, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 210, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 212, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 220, col 17, 'show_notification' is not defined.
+routes/schedules.js: line 230, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 37, col 26, 'model' is defined but never used.
+routes/schedules.js: line 37, col 26, Too many errors. (15% scanned).
+
+52 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 837ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+ES3SafeFilter                                 | 133ms               
+Concat: Vendor                                | 124ms               
+SixToFive                                     | 113ms               
+JSHint app- QUnit                             | 87ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+ES3SafeFilter (1)                             | 133ms               
+Concat: Vendor (1)                            | 124ms               
+SixToFive (2)                                 | 119ms (59 ms)       
+JSHint app- QUnit (1)                         | 87ms                
+TreeMerger (67)                               | 54ms (0 ms)         
+SourcemapConcat (3)                           | 53ms (17 ms)        
+
+file deleted templates/schedules.hbs___jb_old___
+file deleted templates/schedules.hbs___jb_bak___
+file added templates/schedules.hbs
+
+Build successful - 515ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 155ms               
+TreeMerger (appAndDependencies)               | 32ms                
+Funnel: App JS Files                          | 28ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 155ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+TreeMerger (appAndDependencies) (1)           | 32ms                
+CustomStaticCompiler (30)                     | 31ms (1 ms)         
+Funnel: App JS Files (1)                      | 28ms                
+
+file changed unit/models/schedule-test.js
+file changed unit/routes/schedules-test.js
+file changed unit/adapters/application-test.js
+file changed helpers/resolver.js
+file changed helpers/start-app.js
+file changed test-helper.js
+file changed index.html
+file changed main.js
+file changed jquery.min.js
+file changed jquery.min.map
+file changed jquery.js
+file changed composer.json
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed ember.prod.js
+file changed ember.js
+file changed package.json
+file changed ember-template-compiler.js
+file changed README.md
+file changed ember.min.js
+file changed qunit.css
+file changed qunit.js
+file changed index.js
+file changed bower.json
+file changed passed.png
+file changed CONTRIBUTING.md
+file changed failed.png
+file changed README.md
+file changed bower.json
+file changed loader.js
+file changed README.md
+file changed composer.json
+file changed ember-data.prod.js
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed package.json
+file changed ember-data.js
+file changed README.md
+file changed ember-data.min.js
+file changed lib/handlebars/source.rb
+file changed handlebars.runtime.amd.js
+file changed handlebars.min.js
+file changed handlebars.runtime.min.js
+file changed handlebars.amd.min.js
+file changed handlebars.js.nuspec
+file changed handlebars.amd.js
+file changed README.md
+file changed handlebars.runtime.js
+file changed handlebars-source.gemspec
+file changed composer.json
+file changed handlebars.js
+file changed bower.json
+file changed handlebars.runtime.amd.min.js
+file changed component.json
+file changed bower.json
+file changed app-shims.js
+file changed LICENSE.md
+file changed README.md
+file changed test-shims.js
+file changed ember-resolver.js
+file changed ember-resolver-tests.js
+file changed bower.json
+file changed ember-load-initializers.js
+file changed LICENSE.md
+file changed README.md
+file changed crossdomain.xml
+file changed robots.txt
+file changed index.js
+file changed bower.json
+file changed karma.conf.js
+file changed package.json
+file changed CONTRIBUTING.md
+file changed README.md
+file changed environment.js
+file changed app.js
+file changed index.html
+file changed adapters/application.js
+file changed templates/application.hbs
+
+Build successful - 559ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 178ms               
+Funnel: App JS Files                          | 51ms                
+Concat: Test Support JS                       | 30ms                
+SourcemapConcat                               | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 178ms               
+SourcemapConcat (3)                           | 55ms (18 ms)        
+Funnel: App JS Files (1)                      | 51ms                
+Concat: Test Support JS (1)                   | 30ms                
+SixToFive (2)                                 | 28ms (14 ms)        
+
+file changed unit/models/schedule-test.js
+file changed unit/routes/schedules-test.js
+file changed unit/adapters/application-test.js
+file changed helpers/resolver.js
+file changed helpers/start-app.js
+file changed test-helper.js
+file changed index.html
+file changed main.js
+file changed passed.png
+file changed CONTRIBUTING.md
+file changed failed.png
+file changed README.md
+file changed bower.json
+file changed index.js
+file changed lib/handlebars/source.rb
+file changed handlebars.runtime.amd.js
+file changed handlebars.min.js
+file changed handlebars.runtime.min.js
+file changed handlebars.amd.min.js
+file changed handlebars.js.nuspec
+file changed handlebars.amd.js
+file changed README.md
+file changed handlebars.runtime.js
+file changed handlebars-source.gemspec
+file changed composer.json
+file changed handlebars.js
+file changed bower.json
+file changed handlebars.runtime.amd.min.js
+file changed component.json
+file changed bower.json
+file changed loader.js
+file changed README.md
+file changed qunit.css
+file changed qunit.js
+file changed jquery.min.js
+file changed jquery.min.map
+file changed jquery.js
+file changed composer.json
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed ember.prod.js
+file changed ember.js
+file changed package.json
+file changed ember-template-compiler.js
+file changed README.md
+file changed ember.min.js
+file changed ember-resolver.js
+file changed ember-resolver-tests.js
+file changed composer.json
+file changed ember-data.prod.js
+file changed bower.json
+file changed component.json
+file changed Makefile
+file changed package.json
+file changed ember-data.js
+file changed README.md
+file changed ember-data.min.js
+file changed karma.conf.js
+file changed package.json
+file changed CONTRIBUTING.md
+file changed README.md
+file changed bower.json
+file changed index.js
+file changed robots.txt
+file changed crossdomain.xml
+file changed bower.json
+file changed ember-load-initializers.js
+file changed LICENSE.md
+file changed README.md
+file changed test-shims.js
+file changed README.md
+file changed LICENSE.md
+file changed app-shims.js
+file changed bower.json
+file changed templates/application.hbs
+file changed templates/index.hbs
+file changed templates/schedules/all_schedules.hbs
+file changed templates/schedules.hbs
+file changed app.js
+file changed router.js
+file changed index.html
+file changed adapters/application.js
+file changed models/schedule.js
+file changed routes/schedules.js
+file changed environment.js
+
+routes/schedules.js: line 23, col 45, Missing semicolon.
+routes/schedules.js: line 34, col 26, Missing semicolon.
+routes/schedules.js: line 72, col 14, Missing semicolon.
+routes/schedules.js: line 88, col 81, Missing semicolon.
+routes/schedules.js: line 89, col 25, Expected '!==' and instead saw '!='.
+routes/schedules.js: line 98, col 28, Missing semicolon.
+routes/schedules.js: line 99, col 75, Missing semicolon.
+routes/schedules.js: line 113, col 14, Missing semicolon.
+routes/schedules.js: line 118, col 101, Missing semicolon.
+routes/schedules.js: line 120, col 99, Missing semicolon.
+routes/schedules.js: line 141, col 28, Missing semicolon.
+routes/schedules.js: line 142, col 81, Missing semicolon.
+routes/schedules.js: line 146, col 103, Missing semicolon.
+routes/schedules.js: line 147, col 53, Missing semicolon.
+routes/schedules.js: line 148, col 83, Missing semicolon.
+routes/schedules.js: line 151, col 99, Missing semicolon.
+routes/schedules.js: line 163, col 60, Missing semicolon.
+routes/schedules.js: line 172, col 75, Missing semicolon.
+routes/schedules.js: line 175, col 81, Missing semicolon.
+routes/schedules.js: line 176, col 60, Missing semicolon.
+routes/schedules.js: line 177, col 99, Missing semicolon.
+routes/schedules.js: line 178, col 95, Missing semicolon.
+routes/schedules.js: line 179, col 98, Missing semicolon.
+routes/schedules.js: line 180, col 39, Missing semicolon.
+routes/schedules.js: line 187, col 78, Missing semicolon.
+routes/schedules.js: line 189, col 32, Missing semicolon.
+routes/schedules.js: line 192, col 31, Missing semicolon.
+routes/schedules.js: line 210, col 107, Missing semicolon.
+routes/schedules.js: line 212, col 105, Missing semicolon.
+routes/schedules.js: line 213, col 57, Missing semicolon.
+routes/schedules.js: line 214, col 87, Missing semicolon.
+routes/schedules.js: line 220, col 89, Missing semicolon.
+routes/schedules.js: line 87, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 101, col 25, 'scheduler' is not defined.
+routes/schedules.js: line 103, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 107, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 118, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 120, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 121, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 146, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 151, col 21, 'show_notification' is not defined.
+routes/schedules.js: line 152, col 21, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 173, col 30, 'CAP' is not defined.
+routes/schedules.js: line 181, col 48, 'scheduler' is not defined.
+routes/schedules.js: line 185, col 35, 'scheduler' is not defined.
+routes/schedules.js: line 210, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 212, col 25, 'show_notification' is not defined.
+routes/schedules.js: line 220, col 17, 'show_notification' is not defined.
+routes/schedules.js: line 230, col 13, 'remove_modal_backdrop' is not defined.
+routes/schedules.js: line 37, col 26, 'model' is defined but never used.
+routes/schedules.js: line 37, col 26, Too many errors. (15% scanned).
+
+52 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 760ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+ES3SafeFilter                                 | 128ms               
+Concat: Vendor                                | 114ms               
+SixToFive                                     | 110ms               
+JSHint app- QUnit                             | 86ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+ES3SafeFilter (1)                             | 128ms               
+SixToFive (2)                                 | 115ms (57 ms)       
+Concat: Vendor (1)                            | 114ms               
+JSHint app- QUnit (1)                         | 86ms                
+SourcemapConcat (3)                           | 61ms (20 ms)        
+
+file deleted templates/schedules.hbs___jb_old___
+file deleted templates/schedules.hbs___jb_bak___
+file added templates/schedules.hbs
+
+Build successful - 491ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 145ms               
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 25ms                
+TreeMerger (appAndDependencies)               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 145ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CustomStaticCompiler (30)                     | 28ms (0 ms)         
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 25ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+
+file added controllers/schedules.js
+file added unit/controllers
+file added unit/controllers/schedules-test.js
+
+Build successful - 522ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 196ms               
+Funnel: App JS Files                          | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 196ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+
+file deleted controllers/schedules.js~
+file added controllers/schedules.js
+
+controllers/schedules.js: line 5, col 50, 'start' is not defined.
+controllers/schedules.js: line 5, col 57, 'end' is not defined.
+
+2 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 518ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 181ms               
+Funnel: App JS Files                          | 29ms                
+TreeMerger (appAndDependencies)               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 181ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+
+file deleted templates/schedules.hbs___jb_old___
+file deleted templates/schedules.hbs___jb_bak___
+file added templates/schedules.hbs
+
+Build successful - 448ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 30ms                
+SourcemapConcat                               | 29ms                
+ES6: App Tree                                 | 25ms                
+Concat: App                                   | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+ES6: App Tree (1)                             | 25ms                
+Concat: App (1)                               | 24ms                
+CustomStaticCompiler (30)                     | 23ms (0 ms)         
+
+file deleted controllers/schedules.js~
+file added controllers/schedules.js
+
+Build successful - 500ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 155ms               
+Funnel: App JS Files                          | 31ms                
+TreeMerger (appAndDependencies)               | 25ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 155ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+CustomStaticCompiler (30)                     | 25ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 25ms                
+
+file deleted templates/schedules/all_schedules.hbs___jb_old___
+file deleted templates/schedules/all_schedules.hbs___jb_bak___
+file added templates/schedules/all_schedules.hbs
+
+Build successful - 821ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 190ms               
+CustomStaticCompiler                          | 74ms                
+Funnel: App JS Files                          | 55ms                
+TreeMerger (appAndDependencies)               | 51ms                
+ES6: App Tree                                 | 47ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 190ms               
+CustomStaticCompiler (30)                     | 117ms (3 ms)        
+Funnel: App JS Files (1)                      | 55ms                
+TreeMerger (appAndDependencies) (1)           | 51ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+ES6: App Tree (1)                             | 47ms                
+
+file deleted templates/schedules/all_schedules.hbs___jb_old___
+file deleted templates/schedules/all_schedules.hbs___jb_bak___
+file added templates/schedules/all_schedules.hbs
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+TreeMerger (appAndDependencies)               | 29ms                
+Funnel: App JS Files                          | 28ms                
+SourcemapConcat                               | 24ms                
+ES6: App Tree                                 | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CustomStaticCompiler (30)                     | 44ms (1 ms)         
+TreeMerger (67)                               | 31ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 29ms                
+Funnel: App JS Files (1)                      | 28ms                
+ES6: App Tree (1)                             | 24ms                
+
+file deleted templates/schedules/all_schedules.hbs___jb_old___
+file deleted templates/schedules/all_schedules.hbs___jb_bak___
+file added templates/schedules/all_schedules.hbs
+
+Build successful - 496ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 180ms               
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 180ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+
+file deleted templates/schedules/all_schedules.hbs___jb_old___
+file deleted templates/schedules/all_schedules.hbs___jb_bak___
+file added templates/schedules/all_schedules.hbs
+
+Build successful - 450ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+SourcemapConcat                               | 30ms                
+Funnel: App JS Files                          | 29ms                
+ES6: App Tree                                 | 23ms                
+Concat: App                                   | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+CustomStaticCompiler (30)                     | 27ms (0 ms)         
+ES6: App Tree (1)                             | 23ms                
+Concat: App (1)                               | 22ms                
+

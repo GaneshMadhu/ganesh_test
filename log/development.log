@@ -1,0 +1,1329 @@
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:35:47 -0700
+
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.0) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.0) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.0) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.0) lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  activerecord (4.2.0) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.0) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.0) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:36:58 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  TypeError: Object function glob(pattern, options, cb) {
+    if (typeof options === "function") cb = options, options = {}
+    if (!options) options = {}
+  
+    if (typeof options === "number") {
+      deprecated()
+      return
+    }
+  
+    var g = new Glob(pattern, options, cb)
+    return g.sync ? g.found : g
+  } has no method 'hasMagic'
+      at rimraf (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+      at lib$rsvp$node$$tryApply (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+      at lib$rsvp$node$$handleValueInput (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+      at fn (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+      at frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:38:09 -0700
+Processing by EmberController#bootstrap as HTML
+  Rendered ember/bootstrap.html.erb within layouts/ember (1.4ms)
+Completed 200 OK in 196ms (Views: 194.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 03:38:14 -0700
+
+
+Started GET "/javascripts/frontend/vendor.js" for 10.5.4.23 at 2015-04-18 03:38:19 -0700
+Processing by EmberController#bootstrap as JS
+  Parameters: {"path"=>"javascripts/frontend/vendor"}
+  Rendered ember/bootstrap.html.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/frontend/frontend.js" for 10.5.4.23 at 2015-04-18 03:38:24 -0700
+Processing by EmberController#bootstrap as JS
+  Parameters: {"path"=>"javascripts/frontend/frontend"}
+  Rendered ember/bootstrap.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:39:11 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  TypeError: Object function glob(pattern, options, cb) {
+    if (typeof options === "function") cb = options, options = {}
+    if (!options) options = {}
+  
+    if (typeof options === "number") {
+      deprecated()
+      return
+    }
+  
+    var g = new Glob(pattern, options, cb)
+    return g.sync ? g.found : g
+  } has no method 'hasMagic'
+      at rimraf (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+      at lib$rsvp$node$$tryApply (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+      at lib$rsvp$node$$handleValueInput (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+      at fn (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+      at frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:39:49 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  TypeError: Object function glob(pattern, options, cb) {
+    if (typeof options === "function") cb = options, options = {}
+    if (!options) options = {}
+  
+    if (typeof options === "number") {
+      deprecated()
+      return
+    }
+  
+    var g = new Glob(pattern, options, cb)
+    return g.sync ? g.found : g
+  } has no method 'hasMagic'
+      at rimraf (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+      at lib$rsvp$node$$tryApply (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+      at lib$rsvp$node$$handleValueInput (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+      at fn (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+      at frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:40:57 -0700
+Processing by EmberController#bootstrap as HTML
+  Rendered ember/bootstrap.html.erb within layouts/ember (3.3ms)
+Completed 200 OK in 218ms (Views: 217.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/frontend/vendor.js" for 10.5.4.23 at 2015-04-18 03:41:02 -0700
+Processing by EmberController#bootstrap as JS
+  Parameters: {"path"=>"javascripts/frontend/vendor"}
+  Rendered ember/bootstrap.html.erb (0.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/frontend/frontend.js" for 10.5.4.23 at 2015-04-18 03:41:07 -0700
+Processing by EmberController#bootstrap as JS
+  Parameters: {"path"=>"javascripts/frontend/frontend"}
+  Rendered ember/bootstrap.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 03:41:12 -0700
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:44:32 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  TypeError: Object function glob(pattern, options, cb) {
+    if (typeof options === "function") cb = options, options = {}
+    if (!options) options = {}
+  
+    if (typeof options === "number") {
+      deprecated()
+      return
+    }
+  
+    var g = new Glob(pattern, options, cb)
+    return g.sync ? g.found : g
+  } has no method 'hasMagic'
+      at rimraf (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+      at lib$rsvp$node$$tryApply (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+      at lib$rsvp$node$$handleValueInput (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+      at fn (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+      at frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:44:49 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  TypeError: Object function glob(pattern, options, cb) {
+    if (typeof options === "function") cb = options, options = {}
+    if (!options) options = {}
+  
+    if (typeof options === "number") {
+      deprecated()
+      return
+    }
+  
+    var g = new Glob(pattern, options, cb)
+    return g.sync ? g.found : g
+  } has no method 'hasMagic'
+      at rimraf (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+      at lib$rsvp$node$$tryApply (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+      at lib$rsvp$node$$handleValueInput (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+      at fn (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+      at frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 03:53:22 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  TypeError: Object function glob(pattern, options, cb) {
+    if (typeof options === "function") cb = options, options = {}
+    if (!options) options = {}
+  
+    if (typeof options === "number") {
+      deprecated()
+      return
+    }
+  
+    var g = new Glob(pattern, options, cb)
+    return g.sync ? g.found : g
+  } has no method 'hasMagic'
+      at rimraf (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+      at lib$rsvp$node$$tryApply (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+      at lib$rsvp$node$$handleValueInput (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+      at fn (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+      at frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 04:03:10 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  TypeError: Object function glob(pattern, options, cb) {
+    if (typeof options === "function") cb = options, options = {}
+    if (!options) options = {}
+  
+    if (typeof options === "number") {
+      deprecated()
+      return
+    }
+  
+    var g = new Glob(pattern, options, cb)
+    return g.sync ? g.found : g
+  } has no method 'hasMagic'
+      at rimraf (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rimraf/rimraf.js:57:13)
+      at lib$rsvp$node$$tryApply (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1467:11)
+      at lib$rsvp$node$$handleValueInput (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1567:20)
+      at fn (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1555:18)
+      at frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/index.js:100:14
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/broccoli-caching-writer/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 04:10:29 -0700
+Processing by EmberController#bootstrap as HTML
+  Rendered ember/bootstrap.html.erb within layouts/ember (1.2ms)
+Completed 200 OK in 2572ms (Views: 2571.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 04:10:37 -0700
+
+
+Started GET "/assets/frontend/vendor.self-3f678f3d8eb382ae91a225d3bb5846c2366d2f23f2631619d998eeebb83ad7d8.js?body=1" for 10.5.4.23 at 2015-04-18 04:10:37 -0700
+
+
+Started GET "/assets/frontend/frontend.self-cfc47d0de313bbd06abfe50d675e1004b7ad7d72bc19c7e05af09213571f9a8c.js?body=1" for 10.5.4.23 at 2015-04-18 04:10:37 -0700
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 04:11:55 -0700
+Processing by EmberController#bootstrap as HTML
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.7ms)
+Completed 200 OK in 54ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend/vendor.self-3f678f3d8eb382ae91a225d3bb5846c2366d2f23f2631619d998eeebb83ad7d8.js?body=1" for 10.5.4.23 at 2015-04-18 04:11:55 -0700
+
+
+Started GET "/assets/frontend/frontend.self-a11d0a237cf337adde1dd869f664eb1d102cd0d368c21bccedf1ca85cbf41830.js?body=1" for 10.5.4.23 at 2015-04-18 04:11:55 -0700
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 04:11:55 -0700
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 04:18:06 -0700
+Processing by EmberController#bootstrap as HTML
+  Rendered ember/bootstrap.html.erb within layouts/ember (1.3ms)
+Completed 200 OK in 2212ms (Views: 2211.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend/frontend.self-ffd8a4b3eaa16ed29904ea646033c5c47f83bf7f2711b4397eeb8afdcab08b2a.js?body=1" for 10.5.4.23 at 2015-04-18 04:18:12 -0700
+
+
+Started GET "/assets/frontend/vendor.self-3f678f3d8eb382ae91a225d3bb5846c2366d2f23f2631619d998eeebb83ad7d8.js?body=1" for 10.5.4.23 at 2015-04-18 04:18:12 -0700
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 04:18:12 -0700
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 04:18:40 -0700
+Processing by EmberController#bootstrap as HTML
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 525ms (Views: 524.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 04:18:41 -0700
+
+
+Started GET "/assets/frontend/frontend.self-4b61aeb2da6ea093428cca54a4e3512b774b1b9c5739a526680afbd175ef4e54.js?body=1" for 10.5.4.23 at 2015-04-18 04:18:41 -0700
+
+
+Started GET "/assets/frontend/vendor.self-3f678f3d8eb382ae91a225d3bb5846c2366d2f23f2631619d998eeebb83ad7d8.js?body=1" for 10.5.4.23 at 2015-04-18 04:18:41 -0700
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 04:18:54 -0700
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  Error: ENOENT, no such file or directory 'frontend/tmp/build.lock'
+      at Object.fs.unlinkSync (fs.js:771:18)
+      at Class.module.exports.postBuild (frontend/node_modules/ember-cli-rails-addon/index.js:50:10)
+      at frontend/node_modules/ember-cli/lib/models/builder.js:99:34
+      at Array.map (native)
+      at Class.module.exports.Task.extend.processAddonBuildSteps (frontend/node_modules/ember-cli/lib/models/builder.js:97:43)
+      at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:489:16)
+      at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:501:17)
+      at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:472:11)
+      at Object.lib$rsvp$asap$$flush [as _onImmediate] (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1290:9)
+      at processImmediate [as _immediateCallback] (timers.js:345:15)
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (39.4ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.7ms)
+
+
+Started GET "/" for 10.5.4.23 at 2015-04-18 04:19:13 -0700
+Processing by EmberController#bootstrap as HTML
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 04:19:14 -0700
+
+
+Started GET "/assets/frontend/vendor.self-3f678f3d8eb382ae91a225d3bb5846c2366d2f23f2631619d998eeebb83ad7d8.js?body=1" for 10.5.4.23 at 2015-04-18 04:19:14 -0700
+
+
+Started GET "/assets/frontend/frontend.self-098088218ab93d67b38f2978076300579d0fba1999e3b1714b22ba2ed060967c.js?body=1" for 10.5.4.23 at 2015-04-18 04:19:14 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:22:12 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:22:22 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:26:58 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:29:46 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:34:34 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:34:42 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:34:48 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:35:01 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:35:23 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:35:27 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:35:42 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:37:11 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:37:34 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:37:38 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:37:48 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:39:10 -0700
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:41:21 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:41:22 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (1.0ms)
+Completed 200 OK in 63ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:41:50 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:41:52 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:42:46 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:42:48 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:42:54 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:42:56 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.0ms)
+Completed 200 OK in 49ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:42:56 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:42:57 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:43:16 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:43:18 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.0ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:44:18 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:44:19 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.0ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:45:20 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:45:22 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:47:23 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:47:25 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.0ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:48:09 -0700
+
+
+Started GET "/api/v1/schedules" for 10.5.3.205 at 2015-04-18 04:48:11 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"api/v1/schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.0ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:49:18 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:49:21 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:50:20 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:50:21 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:51:38 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:51:40 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 54ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:52:02 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:52:03 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:52:38 -0700
+Processing by EmberController#bootstrap as HTML
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.9ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend/frontend.self-92a8e83fffe1edef608de7728f380dab499339d593790fdb4533a3d83508b443.js?body=1" for 10.5.4.23 at 2015-04-18 04:52:38 -0700
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:52:38 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.0ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend/frontend.map" for 10.5.4.23 at 2015-04-18 04:52:42 -0700
+
+
+Started GET "/assets/frontend/vendor.map" for 10.5.4.23 at 2015-04-18 04:52:42 -0700
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:53:13 -0700
+Processing by EmberController#bootstrap as HTML
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend/frontend.self-92a8e83fffe1edef608de7728f380dab499339d593790fdb4533a3d83508b443.js?body=1" for 10.5.4.23 at 2015-04-18 04:53:13 -0700
+
+
+Started GET "/assets/frontend/vendor.self-3f678f3d8eb382ae91a225d3bb5846c2366d2f23f2631619d998eeebb83ad7d8.js?body=1" for 10.5.4.23 at 2015-04-18 04:53:13 -0700
+
+
+Started GET "/assets/frontend.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.5.4.23 at 2015-04-18 04:53:13 -0700
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:53:14 -0700
+Processing by EmberController#bootstrap as JSON
+  Parameters: {"path"=>"schedules"}
+  Rendered ember/bootstrap.html.erb within layouts/ember (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend/vendor.map" for 10.5.4.23 at 2015-04-18 04:53:14 -0700
+
+
+Started GET "/assets/frontend/frontend.map" for 10.5.4.23 at 2015-04-18 04:53:14 -0700
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:53:30 -0700
+Processing by SchedulesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template schedules/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby]}. Searched in:
+  * "/apps/zzz/t/app/views"
+):
+  actionview (4.2.0) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.0) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  ember-cli-rails (0.3.1) lib/ember-cli/middleware.rb:14:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (22.0ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:55:31 -0700
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/schedules_controller.rb:2:in `<class:SchedulesController>'
+  app/controllers/schedules_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.6ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:56:04 -0700
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/schedules_controller.rb:2:in `<class:SchedulesController>'
+  app/controllers/schedules_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.6ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 04:56:22 -0700
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 04:56:27 -0700
+Processing by SchedulesController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/schedules_controller.rb:6:in `index'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.3ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.8ms)
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 04:56:28 -0700
+Processing by SchedulesController#index as JSON
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 05:00:11 -0700
+Processing by SchedulesController#index as HTML
+Completed 406 Not Acceptable in 0ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/schedules_controller.rb:6:in `index'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.6ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 05:00:30 -0700
+Processing by SchedulesController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/schedules_controller.rb:6:in `index'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 05:00:38 -0700
+Processing by SchedulesController#index as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/schedules_controller.rb:6:in `index'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.1ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 05:01:07 -0700
+Processing by SchedulesController#index as HTML
+Completed 406 Not Acceptable in 0ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/schedules_controller.rb:6:in `index'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 05:01:36 -0700
+Processing by SchedulesController#index as JSON
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template schedules/index, application/index with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby]}. Searched in:
+  * "/apps/zzz/t/app/views"
+):
+  app/controllers/schedules_controller.rb:7:in `block (2 levels) in index'
+  app/controllers/schedules_controller.rb:6:in `index'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (21.9ms)
+
+
+Started GET "/schedules" for 10.5.4.23 at 2015-04-18 05:02:03 -0700
+Processing by SchedulesController#index as JSON
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:02:15 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:02:15 -0700
+Processing by SchedulesController#index as JSON
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:03:12 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:03:14 -0700
+Processing by SchedulesController#index as JSON
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:04:01 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:04:01 -0700
+Processing by SchedulesController#index as JSON
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:04:36 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:04:37 -0700
+Processing by SchedulesController#index as JSON
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:04:51 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:04:53 -0700
+Processing by SchedulesController#index as JSON
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:10:11 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.0ms)
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:10:13 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (12.4ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:10:21 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.3ms)
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:10:22 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ror/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/ror/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (12.3ms)
+  [1m[36m (153.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (74.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateSchedules (20150418120537)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSchedules (20150418120537)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mSchedule Load (0.4ms)[0m  [1mSELECT "schedules".* FROM "schedules"[0m
+SQLite3::SQLException: no such table: schedules: SELECT "schedules".* FROM "schedules"
+  [1m[36m (101.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (76.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateSchedules (20150418120537)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSchedules (20150418120537)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "schedule_type" varchar, "uid" varchar, "name" varchar, "enterprise_id" varchar, "group_id" varchar, "location" varchar, "user_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150418120537"]]
+  [1m[36m (106.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mSchedule Load (1.2ms)[0m  [1mSELECT "schedules".* FROM "schedules"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["schedule_type", "user"], ["name", "USER01"], ["enterprise_id", "rp-001"], ["user_name", "Ganesh Madhu"], ["created_at", "2015-04-18 12:14:17.415913"], ["updated_at", "2015-04-18 12:14:17.415913"]]
+  [1m[35m (67.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["schedule_type", "user"], ["name", "USER02"], ["enterprise_id", "rp-001"], ["user_name", "Ravi Kumar"], ["created_at", "2015-04-18 12:14:22.261596"], ["updated_at", "2015-04-18 12:14:22.261596"]]
+  [1m[36m (93.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["schedule_type", "my"], ["name", "S01"], ["enterprise_id", "rp-001"], ["user_name", "Ganesh Madhu"], ["created_at", "2015-04-18 12:14:22.367338"], ["updated_at", "2015-04-18 12:14:22.367338"]]
+  [1m[35m (113.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["schedule_type", "my"], ["name", "S02"], ["enterprise_id", "rp-001"], ["user_name", "Mahesh Ram"], ["created_at", "2015-04-18 12:14:22.491399"], ["updated_at", "2015-04-18 12:14:22.491399"]]
+  [1m[36m (97.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["schedule_type", "location"], ["name", "LOC01"], ["enterprise_id", "rp-001"], ["user_name", "Ganesh Madhu"], ["created_at", "2015-04-18 12:14:22.597072"], ["updated_at", "2015-04-18 12:14:22.597072"]]
+  [1m[35m (83.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["schedule_type", "location"], ["name", "LOC02"], ["enterprise_id", "rp-001"], ["user_name", "Guru Murthy"], ["created_at", "2015-04-18 12:14:22.688545"], ["updated_at", "2015-04-18 12:14:22.688545"]]
+  [1m[36m (80.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["schedule_type", "global"], ["name", "GLOBAL01"], ["enterprise_id", "rp-001"], ["user_name", "Ganesh Madhu"], ["created_at", "2015-04-18 12:14:22.780791"], ["updated_at", "2015-04-18 12:14:22.780791"]]
+  [1m[35m (113.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schedules" ("schedule_type", "name", "enterprise_id", "user_name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["schedule_type", "global"], ["name", "GLOBAL02"], ["enterprise_id", "rp-001"], ["user_name", "Arivu Selvan"], ["created_at", "2015-04-18 12:14:23.549541"], ["updated_at", "2015-04-18 12:14:23.549541"]]
+  [1m[36m (72.8ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:14:48 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:14:49 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.1ms)[0m  SELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:17:25 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:17:26 -0700
+Processing by SchedulesController#index as JSON
+  [1m[36mSchedule Load (0.3ms)[0m  [1mSELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:19:39 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:19:40 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.2ms)[0m  SELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:21:29 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:21:31 -0700
+Processing by SchedulesController#index as JSON
+  [1m[36mSchedule Load (0.2ms)[0m  [1mSELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1[0m
+Completed 200 OK in 27ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:22:18 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:22:20 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.2ms)[0m  SELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:23:09 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:23:11 -0700
+Processing by SchedulesController#index as JSON
+  [1m[36mSchedule Load (0.3ms)[0m  [1mSELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:23:33 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:23:35 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.4ms)[0m  SELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:25:43 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:25:44 -0700
+Processing by SchedulesController#index as JSON
+  [1m[36mSchedule Load (0.6ms)[0m  [1mSELECT "schedules".* FROM "schedules"[0m
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:26:02 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:26:04 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.3ms)[0m  SELECT "schedules".* FROM "schedules"
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:26:12 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:26:13 -0700
+Processing by SchedulesController#index as JSON
+  [1m[36mSchedule Load (0.3ms)[0m  [1mSELECT "schedules".* FROM "schedules"[0m
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:26:57 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:26:58 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.3ms)[0m  SELECT "schedules".* FROM "schedules"
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:27:21 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:27:22 -0700
+Processing by SchedulesController#index as JSON
+  [1m[36mSchedule Load (0.2ms)[0m  [1mSELECT "schedules".* FROM "schedules"[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:33:11 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:33:12 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.3ms)[0m  SELECT "schedules".* FROM "schedules"
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+  [1m[35mSchedule Load (0.3ms)[0m  SELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1
+  [1m[36mSchedule Load (0.3ms)[0m  [1mSELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1[0m
+  [1m[36mSchedule Load (0.1ms)[0m  [1mSELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "schedules" SET "name" = ?, "updated_at" = ? WHERE "schedules"."id" = ?[0m  [["name", "GANESHM"], ["updated_at", "2015-04-18 12:34:08.461083"], ["id", 1]]
+  [1m[35m (92.4ms)[0m  commit transaction
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:34:13 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:34:13 -0700
+Processing by SchedulesController#index as JSON
+  [1m[36mSchedule Load (13.6ms)[0m  [1mSELECT "schedules".* FROM "schedules"[0m
+Completed 200 OK in 18ms (Views: 0.1ms | ActiveRecord: 13.6ms)
+  [1m[36mSchedule Load (0.3ms)[0m  [1mSELECT  "schedules".* FROM "schedules"  ORDER BY "schedules"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "schedules" SET "name" = ?, "updated_at" = ? WHERE "schedules"."id" = ?[0m  [["name", "USER01"], ["updated_at", "2015-04-18 12:34:22.378273"], ["id", 1]]
+  [1m[35m (84.6ms)[0m  commit transaction
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:34:24 -0700
+
+
+Started GET "/schedules" for 10.5.3.205 at 2015-04-18 05:34:24 -0700
+Processing by SchedulesController#index as JSON
+  [1m[35mSchedule Load (0.2ms)[0m  SELECT "schedules".* FROM "schedules"
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/frontend.css" for 10.5.3.205 at 2015-04-18 05:34:49 -0700

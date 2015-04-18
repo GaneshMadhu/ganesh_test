@@ -1,0 +1,35 @@
+{{# if model }}
+    <div id="widget_content_table">
+        <table class="table table-striped dataTable_gridview" id="schedule_table">
+            <thead>
+            <tr>
+                <th>Schedule Name</th>
+                <th>Type</th>
+                <th>User</th>
+                <th>Location</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody> GANESH Madhu !!!!!!!!!!!!!!! MAHESHR
+            {{#each item in model}}
+                <tr>
+                    <td>{{item.name}}</td>
+                    <td>{{item.schedule_kind}}</td>
+                    <td>{{item.user_name}}</td>
+                    <td>{{item.location}}</td>
+                    <td class="center">
+                        <div class="pull-left" style="margin-right:10px;">
+                            <a href="#" {{ action 'edit_schedule' item 'open_modal' }}>Edit</a>
+                        </div>
+                        <div class="pull-left">
+                            <a href="#" {{ action 'edit_schedule' item 'delete_modal' }}>Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+{{ else }}
+    <div class="alert alert-warning" style="margin: 12px;"> No schedules available</div>
+{{/if}}
